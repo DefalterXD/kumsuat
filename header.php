@@ -11,10 +11,10 @@
     <h1><?php bloginfo('name'); ?></h1>
     <nav>
         <ul>
-            <li><a href="<?php echo home('/');?>">Home</a></li>
-            <li><a href="<?php echo home('/about/');?>">About Us</a></li>
-            <li><a href="<?php echo home('/services/');?>">Services</a></li>
-            <li><a href="<?php echo home('/contact/');?>">Contact</a></li>
+            <li><a href="<?php echo home_url('/');?>">Home</a></li>
+            <li><a href="<?php echo home_url('/about/');?>">About Us</a></li>
+            <li><a href="<?php echo home_url('/services/');?>">Services</a></li>
+            <li><a href="<?php echo home_url('/contact/');?>">Contact</a></li>
         </ul>
     </nav>
 </header>
