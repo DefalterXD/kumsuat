@@ -10,6 +10,11 @@
 <header>
     <h1><?php bloginfo('name'); ?></h1>
     <nav>
-        <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
+        <ul>
+            <li><a href="<?php echo home('/');?>">Home</a></li>
+            <li><a href="<?php echo home('/about/');?>">About Us</a></li>
+            <li><a href="<?php echo home('/services/');?>">Services</a></li>
+            <li><a href="<?php echo home('/contact/');?>">Contact</a></li>
+        </ul>
     </nav>
 </header>
