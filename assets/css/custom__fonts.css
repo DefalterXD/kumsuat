@@ -1,0 +1,22 @@
+:root {
+    --primary--color: #1F4E79;
+    --secondary--color: #FFFF;
+    --accent--color: #009688;
+    --dim--color: #F2F2F2;
+    --third--color: #4C5F71;
+    --primary--font: 'Inter', sans-serif;
+    --head--one--size: bold 2rem / 44px var(--primary--font);
+    --paragraph--size: medium 1rem / 24px var(--primary--font);
+    --head--two--size: bold 24px / 32px var(--primary--font);
+    --head--three-size: bold 20px / auto  var(--primary--font);
+    --footer--paragraph--size: medium 14px / 24px  var(--primary--font);
+    --description--size: medium 14px / 24px var(--primary--font);
+    --header--title--size: bold 48px / 44px var(--primary--font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary--font);
+}
