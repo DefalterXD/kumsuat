@@ -20,3 +20,9 @@
     box-sizing: border-box;
     font-family: var(--primary--font);
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
