@@ -1,0 +1,24 @@
+.rd__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rd__card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dim--color);
+    padding: 2rem 0;
+}
+
+.rd__card__title {
+    font: var(--head--one--size);
+}
+
+.rd__card__desc {
+    font: var(--description--size);
+    width: clamp(20%, 45%, 100%);
+    text-align: center;
+}
