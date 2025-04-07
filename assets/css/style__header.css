@@ -1,0 +1,67 @@
+.main__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: var(--primary--color);
+}
+
+.main__header a,
+.main_header a:link,
+.main__header a:visited {
+    color: var(--primary--color);
+    text-decoration: none;
+}
+
+.logo__image {
+    max-width: 150px;
+}
+
+.nav__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul__nav__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 20%;
+    list-style: none;
+    gap: 50px;
+}
+
+.profile__container {
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.lang__container {
+    min-width: 100px;
+}
+
+.ul__lang__container {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    list-style: none;
+}
+
+.ul__lang__container li {
+    cursor: pointer;
+}
+
+.profile__button {
+    font: var(--head--three-size);
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary--color);
+    color: var(--secondary--color);
+    align-self: center;
+    cursor: pointer;
+}
+
