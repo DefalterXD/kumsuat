@@ -13,16 +13,3 @@
     --description--size: medium 14px / 24px var(--primary--font);
     --header--title--size: bold 48px / 44px var(--primary--font);
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--primary--font);
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-}
