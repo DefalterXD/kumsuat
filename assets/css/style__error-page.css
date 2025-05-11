@@ -1,0 +1,25 @@
+.error-404.not-found {
+    display: flex;
+    justify-content: center;
+    color: var(--primary--color);
+    gap: 2rem;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.error-404.title {
+    font-size: 6rem;
+    align-self: center;
+}
+
+.error-404 a,
+.error-404 a:link,
+.error-404 a:visited {
+    color: var(--accent--color);
+    text-decoration: underline;
+}
