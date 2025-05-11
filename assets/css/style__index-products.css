@@ -18,12 +18,13 @@
 }
 
 .products__catalog__select__container {
+    display: flex;
+    gap: 3rem;
     font: var(--paragraph--size);
 }
 
-.products__catalog__select__container {
-    display: flex;
-    gap: 3rem;
+.product__catalog__select {
+    cursor: pointer;
 }
 
 .products__catalog__cards__container {
