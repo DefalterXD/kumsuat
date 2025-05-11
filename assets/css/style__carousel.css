@@ -23,8 +23,7 @@
 .carousel__left-side {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-    max-height: 237px;
+    gap: 8rem;
 }
 
 .carousel__text__container {
@@ -35,19 +34,18 @@
 }
 
 .carousel__header {
-    width: 600px;
+    width: 101%;
     min-height: 100px;
     font: var(--head--one--size);
 }
 
 .carousel__paragraph {
-    height: 30px;
-    width: 65%;
+    width: 85%;
     font: var(--paragraph--size);
 }
 
 .carousel__right-side img{
-    max-width: 400px;
+    max-width: 460px;
     border: 2px solid var(--primary--color);
     border-radius: 10px;
 }

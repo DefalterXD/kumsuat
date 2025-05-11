@@ -2,8 +2,10 @@
         <div class="carousel__card one ">
             <div class="carousel__left-side">
                 <div class="carousel__text__container">
-                    <h1 class="carousel__header">Качественное оборудование для тестирования</h1>
-                    <p class="carousel__paragraph">Мы гарантируем самый точный результат теста</p>
+                    <h1 class="carousel__header">Качественные продукты для диагностики</h1>
+                    <p class="carousel__paragraph">Наши мочевые тест-полоски обеспечивают высокую точность результатов благодаря использованию проверенных реагентов и 
+                        строгому контролю на каждом этапе производства. Продукция предназначена как для клинического, 
+                        так и для домашнего использования.</p>
                 </div>
                 <div class="carousel__navigation">
                     <button class="arrow prev">
@@ -15,14 +17,16 @@
                 </div>
             </div>
             <div class="carousel__right-side">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/URS-11-strips.jpg" alt="product__image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/product__test.jpeg" alt="product__image">
             </div>
         </div>
         <div class="carousel__card two hidden__card ">
             <div class="carousel__left-side">
                 <div class="carousel__text__container">
-                <h1 class="carousel__header">Чай оборудование для тестирования</h1>
-                <p class="carousel__paragraph">Мы гарантируем самый точный результат теста</p>
+                <h1 class="carousel__header">Сертифицированное оборудование и передовые технологии</h1>
+                <p class="carousel__paragraph">Производственные линии оснащены современными автоматизированными системами, 
+                    соответствующими международным стандартам ISO и CE. 
+                    Это позволяет гарантировать стабильное качество и эффективность каждого теста.</p>
             </div>
             <div class="carousel__navigation">
                 <button class="arrow prev">
@@ -34,14 +38,16 @@
             </div>
         </div>
         <div class="carousel__right-side">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/URS-11-strips.jpg" alt="product__image">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/device.jpeg" alt="product__image">
         </div>
     </div>
     <div class="carousel__card three hidden__card ">
         <div class="carousel__left-side">
             <div class="carousel__text__container">
-                <h1 class="carousel__header">Работа для тестирования</h1>
-                <p class="carousel__paragraph">Мы гарантируем самый точный результат теста. Мы гарантируем самый точный результат теста</p>
+                <h1 class="carousel__header">Собственная лаборатория для исследований и контроля</h1>
+                <p class="carousel__paragraph">На территории фабрики функционирует лаборатория, 
+                    где проводится постоянный анализ сырья, промежуточной и готовой продукции. Исследования
+                    помогают улучшать формулы, повышать чувствительность тестов и адаптироваться к запросам рынка. </p>
             </div>
             <div class="carousel__navigation">
                 <button class="arrow prev">
@@ -53,7 +59,7 @@
             </div>
         </div>
         <div class="carousel__right-side">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/URS-11-strips.jpg" alt="product__image">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/laboratory.jpeg" alt="product__image">
         </div>
     </div>
     <div class="carousel__indicator__container">
