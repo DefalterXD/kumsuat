@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary--font);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+    min-height: 100vh;
+}
+
 .main__header {
     display: flex;
     justify-content: space-around;
@@ -7,14 +22,14 @@
 }
 
 .main__header a,
-.main_header a:link,
+.main__header a:link,
 .main__header a:visited {
     color: var(--primary--color);
     text-decoration: none;
 }
 
 .logo__image {
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .nav__container {
@@ -45,9 +60,9 @@
 
 .ul__lang__container {
     display: flex;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: center;
     list-style: none;
+    gap: 12px;
 }
 
 .ul__lang__container li {

@@ -20,7 +20,6 @@
                     <ul class="ul__lang__container">
                         <li><span lang = 'ru'>РУ</span></li>
                         <li><span lang = 'kk'>КЗ</span></li>
-                        <li><span lang = 'en'>EN</span></li>
                     </ul>
                 </div>
                 <button lang = 'ru' class="profile__button">Войти</button>
